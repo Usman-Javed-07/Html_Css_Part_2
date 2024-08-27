@@ -1,0 +1,30 @@
+.bg-rocketship {
+    width: 100px; height: 100px;
+    background: url('../pics/css_sprites.png') -410px -270px;
+    background: url('../pics/css_sprites.png');
+    display: inline;
+}
+
+x
+.bg-saturn {
+    width: 100px; height: 100px;
+    background: url('../pics/css_sprites.png') -530px -270px;
+}
+
+x
+.bg-ufo {
+    width: 100px; height: 100px;
+    background: url('../pics/css_sprites.png') -10px -410px;
+}
+
+x
+.bg-download {
+    width: 240px; height: 240px;
+    background: url('../pics/css_sprites.png') -410px -10px;
+}
+
+x
+.bg-download {
+    width: 380px; height: 380px;
+    background: url('../pics/css_sprites.png') -10px -10px;
+}
