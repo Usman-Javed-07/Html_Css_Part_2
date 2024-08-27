@@ -1,0 +1,28 @@
+.boxes{
+    border: 3px solid lightgray;
+    position: relative;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+}
+.box-one{
+    background-color: orange;
+}
+.box-two{
+    background-color: tomato;
+    position: fixed;
+    /* right: 0; */
+    width: auto;
+    top: 0;
+    left: 2rem;
+    right: 2rem;
+    z-index: 99999;
+}
+.box-three{
+    background-color: dodgerblue;
+}
+body{
+    margin: 10px;
+    height: 200vh;
+}

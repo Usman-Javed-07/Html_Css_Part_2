@@ -1,0 +1,18 @@
+.avtar{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin: 1rem;
+}
+.tweet{
+    border: 2px solid black;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,14 @@
+* , *::before,*::after{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 10px solid orange;
+    display: inline-block;
+}
+.box::before{
+    content: "hello";
+}

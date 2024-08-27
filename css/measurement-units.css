@@ -1,0 +1,11 @@
+body{
+
+}
+
+
+.box{
+    width: 50vw;
+    height: 100vh;
+    background-color: gold;
+    border-top: 2px solid black;
+}

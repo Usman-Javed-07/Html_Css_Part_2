@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    background-color: gold;
+    padding: 1rem;
+}
+.box:nth-child(2){
+  background-color: dodgerblue;
+}
+
+@media screen and (min-width: 600px){
+    .container{
+        flex-direction: row;
+   }
+}
+
+@media screen and (min-width: 900px){
+    .container{
+        flex-direction: row;
+   }
+   .box{
+    background: pink;
+   }
+}
+
+@media print {
+    body{
+        font-size: 12pt;
+    }
+    .box{
+        padding: 0.5cm;
+    }
+}
