@@ -9,10 +9,18 @@
 <body>
     <!-- <img src="pics/meal.webp" alt="">
     <img src="pics/images/images/meal.jpg" alt=""> -->
-    <picture>
+    <!-- <picture>
         <source type="pics/webp" srcset="pics/meal.webp"/>
         <source type="images/jpeg" srcset="pics/images/meal.jpg"/>
         <img src="pics/images/images/meal.jpg" alt="a bowl of salmon and curry">
+    </picture> -->
+
+
+    <h1>art direction</h1>
+    <picture>
+        <source media="(max-width:500px)" srcset="pics/images/images/meal-cropped.jpg">
+        <source media="(min-width:501px)" srcset="pics/images/images/meal.jpg">
+        <img src="pics/images/images/meal.jpg" alt="">
     </picture>
 </body>
 </html>
