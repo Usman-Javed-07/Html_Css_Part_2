@@ -5,3 +5,6 @@ body{
     height: 300vh;
     background-attachment: fixed;
 }
+body h1{
+    color: white;
+}

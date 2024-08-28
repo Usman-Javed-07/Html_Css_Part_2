@@ -1,0 +1,150 @@
+/* body{
+    background: url(../pics/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+    font-weight: 900;
+    font-size: 3.3rem;
+}
+p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    background:rgba(0,0,0,.6);
+    padding: 8px;
+}
+.banner {
+     filter: grayscale(70%) blur(3px);
+}
+ .banner{
+    background: url(../pics/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    height: 500px;
+    filter: brightness(60%);
+    background-size: cover;
+    width: 100%;
+ }
+ .banner h1{
+    color: white;
+    filter: brightness(200%);
+ } */
+
+ /* html{
+    font-size: 62.5;
+ }
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ h1{
+    font-weight: 900;
+    font-size: 3rem;
+    word-spacing: 1.5rem;
+    text-shadow: 2px 2px 0 #000;
+ }
+.hero{
+    background: url(../pics/jeremy-thomas-E0AHdsENmDg-unsplash_crai1k/jeremy_1400.jpg) no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.hero tagline {
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding: 1.5rem;
+  } */
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+    word-spacing: 1.5rem;
+  }
+  
+  .hero {
+    align-items: center;
+    /* I've specified the reptition of the background (no-repeat) as part of setting the background. */
+    background: url(../images/background_w320.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .hero .tagline {
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding: 1.5rem;
+  }
+  @media screen and (min-width: 100px) {
+    .hero {
+      background: url(../pics/jeremy-thomas-E0AHdsENmDg-unsplash_crai1k/jeremy_747.jpg) no-repeat;
+      background-size: cover;
+    }
+    .hero .tagline {
+      font-size: 3rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .hero {
+      background: url(../pics/jeremy-thomas-E0AHdsENmDg-unsplash_crai1k/jeremy_747.jpg) no-repeat;
+      background-size: cover;
+    }
+    .hero .tagline {
+      font-size: 3rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .hero {
+      background: url(../pics/jeremy-thomas-E0AHdsENmDg-unsplash_crai1k/jeremy_1081.jpg) no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 6rem;
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .hero {
+      background: url(../pics/jeremy-thomas-E0AHdsENmDg-unsplash_crai1k/jeremy_1400.jpg) no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 9rem;
+    }
+  }
